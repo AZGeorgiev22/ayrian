@@ -1,2 +1,18 @@
 /*tuk pishem css samo za home page*/
-@import"./global.css"
+@import"./global.css";
+.Heading {
+    position: absolute;
+    top: 10px;
+    left: 750px;
+    right: 600px;
+    color: azure;
+    background: linear-gradient(89.84deg, #228830 12.18%, #13191a 53.25%);
+  
+    -webkit-background-clip: text;
+  
+    -webkit-text-fill-color: transparent;
+  
+    background-clip: text;
+    font-size: 3rem;
+  }
+  
