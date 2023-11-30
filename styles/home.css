@@ -51,18 +51,11 @@
 }
 .snimki {
   position: absolute;
-  top: 160vh;
+  top: 190vh;
 }
 a{
   text-decoration: none;
   color: #13191a;
-}
-.buton{
-  position:absolute;
- width:300px;
- height:400px;
-  top:610px;
-  left:80px;
 }
 .introduction {
   position: absolute;
@@ -70,7 +63,59 @@ a{
   right: 1100px;
   transform: rotate(-45);
   color: rgb(0, 0, 0);
-  left: 25px;
+  left: 50px;
   font-size: 1.3rem;
 
+}
+.button {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 390px;
+  top: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background: rgb(11, 99, 3);
+  border-radius: 15px;
+  transition: background-color 0.15s,
+      color 0.15s;
+}
+.button:hover{
+  background-color: #00b01d;
+
+}
+.button:active{
+  opacity: 1;
+}
+.buttontext {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+.intimg{
+  position:absolute;
+  width: 1000px;
+  left:860px;
+  top:250px;
+}
+.zelt,
+.vodat,
+.agrit{
+  position:absolute;
+  top:130vh;
+
+  background-clip: text;
+  font-size: 2rem;
+}
+.vodat{
+  left:800px;
+}  
+.zelt{
+  left:500px;
+}
+.agrit{
+  left:1140px;
 }
