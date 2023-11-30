@@ -1,5 +1,6 @@
 /*tuk pishem css samo za home page*/
-@import"./global.css";
+@import "./global.css";
+
 .Heading {
     position: absolute;
     top: 10px;
@@ -7,12 +8,69 @@
     right: 600px;
     color: azure;
     background: linear-gradient(89.84deg, #228830 12.18%, #13191a 53.25%);
-  
     -webkit-background-clip: text;
-  
     -webkit-text-fill-color: transparent;
-  
     background-clip: text;
     font-size: 3rem;
-  }
+}
+
+.image-container {
+  top:1300px;
+  left:400px;
+    position: relative;
+    display: inline-block;
+}
+
+.zel,
+.voda,
+.agri {
+    width: 350px;
+    height: 450px;
+    transition: opacity 0.5s ease;
+}
+
+.zel:hover,
+.voda:hover,
+.agri:hover {
+    opacity: 0; 
+}
+
+.text-on-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
   
+}
+.image-container:hover .text-on-hover {
+  opacity: 1; 
+}
+.snimki {
+  position: absolute;
+  top: 160vh;
+}
+a{
+  text-decoration: none;
+  color: #13191a;
+}
+.buton{
+  position:absolute;
+ width:300px;
+ height:400px;
+  top:610px;
+  left:80px;
+}
+.introduction {
+  position: absolute;
+  top: 300px;
+  right: 1100px;
+  transform: rotate(-45);
+  color: rgb(0, 0, 0);
+  left: 25px;
+  font-size: 1.3rem;
+
+}

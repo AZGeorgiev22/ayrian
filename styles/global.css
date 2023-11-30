@@ -16,6 +16,6 @@
     border-radius: 100px;
 }
 body{
-    background: rgb(255, 255, 255);
-background: linear-gradient(90deg, rgb(22, 27, 16) 19%, rgb(139, 139, 40) 80%);
+    height: 200vh;
+    background: linear-gradient(to bottom, rgb(217, 255, 0), green);
 }
