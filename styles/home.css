@@ -12,6 +12,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .image-container {
@@ -19,6 +20,7 @@
   left:400px;
     position: relative;
     display: inline-block;
+  
 }
 
 .zel,
@@ -44,6 +46,7 @@
     font-size: 16px;
     opacity: 0; 
     transition: opacity 0.5s ease; 
+    
   
 }
 .image-container:hover .text-on-hover {
@@ -65,7 +68,7 @@ a{
   color: rgb(0, 0, 0);
   left: 50px;
   font-size: 1.3rem;
-
+  text-align: justify;
 }
 .button {
   position: absolute;
@@ -82,6 +85,8 @@ a{
   border-radius: 15px;
   transition: background-color 0.15s,
       color 0.15s;
+      background: #228830;
+    color: white;
 }
 .button:hover{
   background-color: #00b01d;
@@ -134,6 +139,7 @@ a{
   top: 350px;
   white-space: nowrap;
   position: relative;
+  margin: 0 15px;
   }
   .logos:before,
   .logos:after {
