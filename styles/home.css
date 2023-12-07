@@ -1,5 +1,6 @@
-/*tuk pishem css samo za home page*/
 @import "./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 
 .Heading {
     position: absolute;

@@ -5,74 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/flippingCards.css"> <!-- Add the flipping card CSS -->
+    <title>Green Challenges</title>
 </head>
 <body>
-    <h1 class="Heading">Green challenges</h1>
+    <h1 class="Heading">Green Challenges</h1>
     <img class="logo" src="./images/logo.png" width="70px">
+
     <nav class="navbar">
         <a href="./pages/infp1.html">Global Warming</a>
         <a href="./pages/infp2.html">Water Conservation</a>
         <a href="./pages/infp3.html">Sustainable Agriculture</a>
-        <a href="./pages/aboutus.html">About us</a>
+        <a href="./pages/aboutus.html">About Us</a>
     </nav>
-    <p class="introduction">Welcome to our dedicated space for Sustainable Agriculture and Water Conservation!
 
-        In a world where environmental concerns are becoming increasingly critical, our site is committed to promoting practices that ensure the longevity of our planet. Through the lens of sustainable agriculture and water conservation, we explore innovative approaches, share valuable insights, and champion eco-friendly solutions.Discover how sustainable agriculture methods are reshaping the future of farming, emphasizing harmony with nature, reducing environmental impact, and fostering resilient ecosystems. Join us on a journey to explore techniques that not only ensure bountiful harvests but also safeguard the health of our planet.
-
-        Dive into the realm of water conservation, where we delve into the importance of responsible water usage. Learn about cutting-edge technologies, conservation strategies, and practical tips for preserving this precious resource. Our aim is to empower individuals and communities to make informed choices that contribute to a sustainable and water-efficient world.
-        
-        </p>
-      
-
-
-            <div class="button">
-                <a href="#snimki" class="buttontext">Lets jump in</a>
-               </div>
-<!--Global warming refers to the long-term increase in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases into the atmosphere. -->
-<p class="agrit">Sustainable Agriculture</p>
-<p class="vodat">Water Conservation</p>
-
-
-<p class="zelt">Global Warming</p>
-
-<img class="intimg" src="images/introductionimg.jpg">
-
-<!--za 3te snimki-->
-        <div class="image-container">
-            <img class="zel" src="images/Evergreen-Trees.jpg">
-            <div class="text-on-hover"><a href="pages/infp1.html" >Global warming refers to the long-term increase in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases into the atmosphere. </a></div>
-        </div>
-        <div class="image-container">
-            <img class="voda" src="images/water.webp">
-            <div class="text-on-hover"><a href="pages/infp2.html" >Water conservation is critical for sustainable development and the well-being of both ecosystems and human societies. </a></div>
-        </div>
-        <div class="image-container">
-            <img class="agri" src="images/agri.jpg">
-            <div class="text-on-hover"><a href="pages/infp3.html" >The challenges in modern agriculture and discuss sustainable farming practices that promote environmental health.</a></div>
-        </div>
-        <p id="snimki" class="snimki">  </p>
-        <div class="logos">
-            <div class="logos-slide">
-            <img src="./images/visual_studio-removebg-preview.png">
-            <img src="./images/teams-removebg-preview.png">
-            <img src="./images/github-removebg-preview.png">
-            <img src="./images/discord-removebg-preview.png">
-            <img src="./images/visual_studio-removebg-preview.png">
-            <img src="./images/teams-removebg-preview.png">
-            <img src="./images/github-removebg-preview.png">
-            <img src="./images/discord-removebg-preview.png">
-            <img src="./images/visual_studio-removebg-preview.png">
-            <!-- Add more company logos here (e.g., Adobe, Google, IBM) -->
+    <!-- Replace the introduction paragraph with the flipping card -->
+    <div class="maincontainer">
+        <div class="thecard">
+            <div class="thefront">
+                <!-- Move content inside .thefront div -->
+                <h1>Front of Card</h1>
+                <p>This is the front of the card. It contains important information. Please see overleaf for more details.</p>
             </div>
-            <div class="logos-slide">
-            <img src="./images/visual_studio-removebg-preview.png">
-            <img src="./images/teams-removebg-preview.png">
-            <img src="./images/github-removebg-preview.png">
-            <img src="./images/discord-removebg-preview.png">
-            <img src="./images/visual_studio-removebg-preview.png">
-            <img src="./images/teams-removebg-preview.png">
-            <img src="./images/github-removebg-preview.png">
-            <img src="./images/discord-removebg-preview.png">
-            <img src="./images/visual_studio-removebg-preview.png">
+            <div class="theback">
+                <!-- Move content inside .theback div -->
+                <h1>Back of Card</h1>
+                <p>Explore sustainable agriculture and water conservation with us! Our site is dedicated to promoting eco-friendly practices for a healthier planet. Discover innovative farming methods, reduce environmental impact, and join us in safeguarding the Earth. Dive into responsible water usage, learn about cutting-edge technologies, and empower communities for a sustainable, water-efficient world.</p>
+                <!-- Move the button to the back of the card -->
+                <div class="button">
+                    <a href="#snimki" class="buttontext">Let's Jump In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Remove the existing introduction paragraph -->
+    
+    <p class="agrit">Sustainable Agriculture</p>
+    <p class="vodat">Water Conservation</p>
+    <p class="zelt">Global Warming</p>
+
+    <div id="earthback">
+        <div id="earth"></div>
+    </div>
+
+    <div class="image-container">
+        <img class="zel" src="images/Evergreen-Trees.jpg">
+        <div class="text-on-hover">
+            <a href="pages/infp1.html">Global warming refers to the long-term increase in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases into the atmosphere.</a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img class="voda" src="images/water.webp">
+        <div class="text-on-hover">
+            <a href="pages/infp2.html">Water conservation is critical for sustainable development and the well-being of both ecosystems and human societies.</a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img class="agri" src="images/agri.jpg">
+        <div class="text-on-hover">
+            <a href="pages/infp3.html">The challenges in modern agriculture and discuss sustainable farming practices that promote environmental health.</a>
+        </div>
+    </div>
+
+    <p id="snimki" class="snimki"></p>
 </body>
 </html>
