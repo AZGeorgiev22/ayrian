@@ -1,2 +1,97 @@
 /*tuk pishem css samo za about us*/
 @import"./global.css";
+body {
+    font-family: 'Montserrat', sans-serif; /* Use a Google Font for a different look */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3494e6, #ec6ead); /* Gradient background */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .team-member {
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .team-member:hover h2 a {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Logo Carousel */
+@keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+    }
+    .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    top: 50px;
+    white-space: nowrap;
+    position: relative;
+    }
+    .logos:before,
+    .logos:after {
+    position: absolute;
+    top: 500;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+    }
+    .logos:before {
+    left: 0;
+    
+    }
+    .logos:after {
+    right: 0;
+    
+    }
+    .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+    }
+    .logos-slide img {
+    height: 90px;
+    margin: 0 30px;
+    }
