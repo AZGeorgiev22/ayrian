@@ -1,2 +1,84 @@
 /*tuk pishem css samo za infp1*/
 @import"./global.css";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: #1a8c5c;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #1a8c5c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons a:hover {
+    background-color: #1a8c5c;
+    color: #fff;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.green-section {
+    background-color: #7ebd88;
+    color: #fff;
+}
+
+.blue-section {
+    background-color: #5fa3d7;
+    color: #fff;
+}
+
+.gray-section {
+    background-color: #999;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quick-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
