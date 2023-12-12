@@ -82,3 +82,10 @@ body {
     margin: 0 15px;
     text-decoration: none;
 }
+.jfif{
+   
+    top: -1350px;
+    white-space: nowrap;
+    position: relative;
+    left: 250px;
+}
