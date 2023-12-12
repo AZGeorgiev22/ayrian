@@ -69,10 +69,7 @@
 .image-container:hover .text-on-hover {
   opacity: 1; 
 }
-.snimki {
-  position: absolute;
-  top: 190vh;
-}
+
 a{
   text-decoration: none;
   color: #13191a;
@@ -102,8 +99,6 @@ a{
   border-radius: 15px;
   transition: background-color 0.15s,
       color 0.15s;
-      background: #228830;
-    color: white;
 }
 .button:hover{
   background-color: #00b01d;
@@ -194,4 +189,14 @@ a{
 }
 a:hover {
   color: #45a049;
+}
+
+.snimki {
+  position: absolute;
+  top: 160vh;
+  top: 190vh;
+}
+
+.thefront{
+ background: darkgreen;
 }
