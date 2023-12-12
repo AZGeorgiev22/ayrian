@@ -1,5 +1,7 @@
 /*tuk pishem css samo za infp3*/
 @import"./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;

@@ -1,5 +1,7 @@
 /*tuk pishem css samo za about us*/
 @import"./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 body {
     font-family: 'Montserrat', sans-serif; /* Use a Google Font for a different look */
     margin: 0;

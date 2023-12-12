@@ -1,5 +1,7 @@
 /*tuk pishem css samo za infp2*/
 @import"./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 /* styles.css */
  
 body {

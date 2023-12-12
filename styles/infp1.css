@@ -1,5 +1,7 @@
 /*tuk pishem css samo za infp1*/
 @import"./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
