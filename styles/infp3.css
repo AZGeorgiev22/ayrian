@@ -1,81 +1,97 @@
-/*tuk pishem css samo za infp3*/
+/*tuk pishem css samo za infp1*/
 @import"./global.css";
 @import "./rotatingGlobe.css";
 @import "./flippingCards.css";
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #4CAF50;
+.hero {
+    background-color: #1a8c5c;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    font-size: 2em;
-    letter-spacing: 1px;
+    padding: 80px 20px;
 }
 
-section {
+.hero-content {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1.5s ease-out;
+    color: #1a8c5c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-h1, h2 {
-    color: #4CAF50;
+.cta-buttons a:hover {
+    background-color: #1a8c5c;
+    color: #fff;
 }
 
-p {
-    color: #555;
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
 }
 
-ul {
-    color: #777;
+.green-section {
+    background-color: #7ebd88;
+    color: #fff;
 }
 
-footer {
-    background-color: #4CAF50;
+.blue-section {
+    background-color: #5fa3d7;
+    color: #fff;
+}
+
+.gray-section {
+    background-color: #999;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-    animation: fadeInUp 1s ease-out;
+    padding: 20px 0;
 }
 
-a {
-    color: #4CAF50;
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quick-links a {
+    color: #fff;
+    margin: 0 15px;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
-
+.jfif{
+   
+    top: -1350px;
+    white-space: nowrap;
+    position: relative;
+    left: 250px;
+    width:400px;
+}
 a:hover {
     color: #45a049;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

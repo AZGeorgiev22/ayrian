@@ -1,98 +1,96 @@
-/*tuk pishem css samo za infp2*/
+/*tuk pishem css samo za infp1*/
 @import"./global.css";
 @import "./rotatingGlobe.css";
 @import "./flippingCards.css";
-/* styles.css */
- 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    box-sizing: border-box;
 }
- 
-.animated-header {
-    background: linear-gradient(to right, #4CAF50, #2E7D32);
-    color: white;
+
+.hero {
+    background-color: #1a8c5c;
+    color: #fff;
     text-align: center;
-    padding: 1em;
-    animation: fadeIn 1.5s ease-in-out;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 80px 20px;
 }
- 
-.animated-section {
+
+.hero-content {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    animation: slideUp 1.5s ease-in-out;
-    border-radius: 8px;
+    margin: 0 auto;
 }
- 
-p {
+
+.hero-content h1 {
+    margin-bottom: 10px;
+}
+
+.hero-content p {
     font-size: 1.2em;
-    line-height: 1.6;
-    color: #555;
 }
- 
-ul {
-    list-style-type: none;
-    padding: 0;
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #1a8c5c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
- 
-.animated-list {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1s forwards;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    font-size: 1.1em;
+
+.cta-buttons a:hover {
+    background-color: #1a8c5c;
+    color: #fff;
 }
- 
-.animated-list:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
- 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
- 
-@keyframes slideUp {
-    from {
-        transform: translateY(20px);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
- 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
- 
-footer {
-    background-color: #333;
-    color: white;
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.8em;
+}
+
+.green-section {
+    background-color: #7ebd88;
+    color: #fff;
+}
+
+.blue-section {
+    background-color: #5fa3d7;
+    color: #fff;
+}
+
+.gray-section {
+    background-color: #999;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quick-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.jfif{
+   
+    top: -1350px;
+    white-space: nowrap;
+    position: relative;
+    left: 250px;
+    width:250px;
 }
 a:hover {
     color: #45a049;
