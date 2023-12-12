@@ -2,26 +2,41 @@
 @import "./rotatingGlobe.css";
 @import "./flippingCards.css";
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.logo {
+  margin-right: auto; /* Pushes everything else to the right */
+}
+
 .Heading {
-    position: absolute;
-    top: 10px;
-    left: 750px;
-    right: 600px;
-    color: azure;
-    background: linear-gradient(89.84deg, #228830 12.18%, #13191a 53.25%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0; /* Centered in the available space */
+  color: azure;
+  background: linear-gradient(89.84deg, #228830 12.18%, #13191a 53.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Center the text */
+  flex-grow: 1; /* Allows the heading to take up available space */
+}
+
+.navbar {
+  display: flex;
+  gap: 20px; /* Adjust the gap between navbar items as needed */
+  margin-left: auto; /* This will push the navbar to the right */
 }
 
 .image-container {
   top:1300px;
   left:400px;
-    position: relative;
-    display: inline-block;
-  
+  position: relative;
+  display: inline-block;
 }
 
 .zel,
