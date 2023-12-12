@@ -1,5 +1,7 @@
 /*tuk pishem css samo za about us*/
 @import"./global.css";
+@import "./rotatingGlobe.css";
+@import "./flippingCards.css";
 body {
     font-family: 'Montserrat', sans-serif; /* Use a Google Font for a different look */
     margin: 0;
@@ -23,7 +25,7 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+    box-shadow: 0 0 20px green; /* Soft box shadow */
     animation: fadeIn 1s ease-in-out;
   }
   
@@ -141,3 +143,6 @@ body {
       position: absolute;
       top: 190vh;
     }
+    a:hover {
+      color: #45a049;
+  }
