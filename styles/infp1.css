@@ -89,3 +89,6 @@ body {
     position: relative;
     left: 250px;
 }
+a:hover {
+    color: #45a049;
+}
