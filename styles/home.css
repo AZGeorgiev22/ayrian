@@ -187,3 +187,8 @@ a{
   .maincontainer{
     left: 25%;
   }
+
+#firstCard{
+  padding-top: 80px;
+  padding-right: 1000px;
+}
