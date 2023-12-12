@@ -1,43 +1,34 @@
-<h1 align="center"> TEAM Musaka <h1>
+<h1 align="center"> Green Challenges </h1>
+
+<div align="center"><img src="./path/to/your/logo.png" alt="logo for Green Challenges"></div>
+
 <div align="center"> 
+  <!-- Any additional content you want to include -->
 </div>
-📋 Table of contents
-[Description](#description)
-[Documentation](#docs)
-[Technologies](#technologies)
-[Collaborators](#collaborators)
-🔍 Description <a name="description"></a>
-<p align="center"> This is a site about the Green challenges </p>
-📃 Documentation <a name="docs"></a>
-[Team documentation]()
-[Presentation]()
-🖥️ Technologies used <a name="technologies"></a>
-<a href="#"><img src="images/css-icon.png" width=100></a>
-<a href="#"><img src="images/figmaIcon.png" width=100 height=101></a>
-<a href="#"><img src="images/gitHubIcon.png" width=100></a>
-<a href="#"><img src="images/html-icon.png" width=100></a>
-<a href="#"><img src="images/powerPointIcon.png" width=100></a>
-<a href="#"><img src="images/teamsIcon.png" width=100></a>
-<a href="#"><img src="images/vsCode-icon.png" width=100></a>
-<a href="#"><img src="images/wordIcon.png" width=100></a>
-🧑 Collaborators <a name="collaborators"></a>
-Asparuh Georgiev - Scrum trainer
-Georgi Stoyanov - Front-end Developer
-Petar Kostov - Front-end Developer
-Veselin Naydenov - Designer
-GitHub
-AZGeorgiev22 - Overview
-AZGeorgiev22 has 3 repositories available. Follow their code on GitHub.
-Image
-GitHub
-GSStoyanov22 - Overview
-GSStoyanov22 has one repository available. Follow their code on GitHub.
-Image
-GitHub
-PTKostov22 - Overview
-Student at VSCPI. GitHub is where PTKostov22 builds software.
-Image
-GitHub
-VVNaydenov22 - Overview
-VVNaydenov22 has 2 repositories available. Follow their code on GitHub.
-Image
+
+## 📋 Table of Contents
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+## 🔍 Overview <a name="overview"></a>
+<p align="center"> Welcome to the Green Challenges website repository! This project aims to provide a platform for individuals and communities to engage in environmental challenges that promote sustainable living and contribute to a greener planet. By participating in these challenges, users can make a positive impact on the environment and raise awareness about eco-friendly practices. </p>
+
+## 📃 Documentation <a name="docs"></a>
+<!-- Add links to your documentation files -->
+- [User documentation](./path/to/user/documentation.md)
+- [Developer documentation](./path/to/developer/documentation.md)
+
+## 🖥️ Technologies used <a name="technologies"></a> 
+Teams,Html5,Css3,Discord,VisualStudioCode,PowerPoint,Word,Figma
+## 🧑 Collaborators <a name="collaborators"></a>
+- [Asparuh Georgiev](https://github.com/AZGeorgiev22) - ScrumTrainer
+- [Peter Kostov](https://github.com/PTKostov22 ) - Developer
+- [Georgi Stoyanov](https://github.com/GSStoyanov22) - Developer
+- [Veselyn Naidenov](https://github.com/VVNaydenov22) - Designer
