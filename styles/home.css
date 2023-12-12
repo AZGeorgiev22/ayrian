@@ -24,6 +24,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center; /* Center the text */
   flex-grow: 1; /* Allows the heading to take up available space */
+  margin-left: 540px;
 }
 
 .navbar {
