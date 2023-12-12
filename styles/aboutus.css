@@ -4,11 +4,14 @@ body {
     font-family: 'Montserrat', sans-serif; /* Use a Google Font for a different look */
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #3494e6, #ec6ead); /* Gradient background */
+    background-image: url('../images/introductionimg.jpg');
+    backdrop-filter: blur(3vw);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   header {
-    background-color: #333;
+    background: linear-gradient(to right, #3a6e5b, #6fc9a8, #3a6e5b);
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -95,4 +98,46 @@ body {
     height: 90px;
     margin: 0 30px;
     }
-   
+    .image-container {
+      top:50px;
+      left:250px;
+        position: relative;
+        display: inline-block;
+      
+    }
+    
+    .zel,
+    .voda,
+    .Vesko,
+    .agri {
+        width: 350px;
+        height: 450px;
+        transition: opacity 0.5s ease;
+    }
+    
+    .zel:hover,
+    .voda:hover,
+    .Vesko:hover,
+    .agri:hover {
+        opacity: 0; 
+    }
+    
+    .text-on-hover {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 16px;
+        opacity: 0; 
+        transition: opacity 0.5s ease; 
+        
+      
+    }
+    .image-container:hover .text-on-hover {
+      opacity: 1; 
+    }
+    .snimki {
+      position: absolute;
+      top: 190vh;
+    }
