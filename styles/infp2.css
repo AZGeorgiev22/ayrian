@@ -92,4 +92,6 @@ footer {
     width: 100%;
     font-size: 0.8em;
 }
- 
+a:hover {
+    color: #45a049;
+}
