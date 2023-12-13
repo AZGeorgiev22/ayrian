@@ -1,6 +1,7 @@
 <h1 align="center"> Green Challenges </h1>
 
-<div align="center"><img src="./path/to/your/logo.png" alt="logo for Green Challenges"></div>
+<div align="center"><img src="./images/logo.png" width=100alt="logo for Green Challenges">
+</div>
 
 <div align="center"> 
   <!-- Any additional content you want to include -->
